@@ -84,7 +84,7 @@
         <li>Therefore, the triangle ABC is equilateral. <strong>QED</strong></li>
     </ol>
 
-<h3>Proposition 2: construct a segment equal to another segment, using a given point as an extreme.</h3>
+<h3 id="prop-2">Proposition 2: construct a segment equal to another segment, using a given point as an extreme.</h3>
 <p><strong>Hypothesis</strong>: let A be a given point, and BC a given segment.</p>
 <p><strong>Thesis</strong>: there exists a straight line AD congruent to BC.</p>
 <p><strong>Proof</strong>:</p>
@@ -99,6 +99,17 @@
     <li>As AL &cong; BG and BC &cong; BG, by <a href="#comm-1">common notion 1</a> we have AL &cong; BC. <strong>QED</strong></li>
 </ol>
 
+<h3>Proposition 3: given two unequal segments, subtract the smaller from the larger.</h3>
+<p><strong>Hypothesis</strong>: let AB and C be two given non-congruent segments, with AB longer than C.</p>
+<p><strong>Thesis</strong>: it's possible to subtract a segment congruent to C from AB.</p>
+<p><strong>Proof</strong>:</p>
+<ol>
+    <li>Using <a href="#prop-2">proposition 2</a>, construct a segment AD congruent to C.</li>
+    <li>Build the circle DEF with center A and radius AD (<a href="#post-3">postulate 3</a>).</li>
+    <li><em>Postulate that AB meets the circle in a point E</em></li>
+    <li>By the definition of <a href="#def-circumference">circumference</a>, AD &cong; AE.</li>
+    <li>From AD &cong; AE and C &cong; AD, we conclude that AE &cong; C (<a href="#comm-1">common notion 1</a>). <strong>QED</strong></li>
+</ol>
 
 </body>
 </html>
