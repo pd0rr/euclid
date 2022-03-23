@@ -32,7 +32,7 @@
     <p><strong>Obtuse angle</strong>: an angle greater than a right angle.</p>
     <p><strong>Acute angle</strong>: an angle smaller than a right angle.</p>
     <p><strong>Circle</strong>: part of the plane contained by a circumference.</p>
-    <p><strong>Circumference</strong>: the set of points that for <em>congruent</em> segments with a common point, called the <em>center</em>.</p>
+    <p id="def-circumference"><strong>Circumference</strong>: the set of points that form <em>congruent</em> segments with a common point, called the <em>center</em>.</p>
     <p><strong>Rectilinear figure</strong>: part of a plane contained by segments, called <strong>sides</strong>.</p>
     <p><strong>Triangle</strong>: rectilinear figure with 3 sides. A triangle can be: </p>
     <ul>
@@ -53,18 +53,36 @@
     <ol>
         <li>A pair of points defines a segment.</li>
         <li>A segment can always be extended.</li>
-        <li>A circle with any center and radius exists (can be drawn).</li>
+        <li id="postulate-3">A circle with any center and radius exists (can be drawn).</li>
         <li>All right angles are congruent to each other.</li>
         <li>If a segment crosses two other segments and the <strong>sum</strong> of two angles on the same side is less than two right angles, then there exist extensions of the two segments that meet in a point on the same side; there's no such point on the other side.</li>
     </ol>
 
     <h2>Common notions</h2>
     <ol>
-        <li>Congruence is a transitive relationship.</li>
+        <li id="comm-1">Congruence is a transitive relationship.</li>
         <li>Given two pairs of congruent things, the sums across the pairs are congruent to each other.</li>
         <li>Given two pairs of congruent things, the differences across pairs are equal to each other.</li>
-        <li>Congruence is a reflexive relationship.</li>
+        <li id="comm-4">Congruence is a reflexive relationship.</li>
         <li>The whole is greater than the part.</li>
     </ol>
+
+    <h2>Propositions</h2>
+
+    <h3>Proposition 1: constructing an equilateral triangle on a given segment.</h3>
+    <p><strong>Hypothesis</strong>: a segment AB is given.</p>
+    <p><strong>Thesis</strong>: an equilateral triangle exists that has AB as a side.</p>
+    <p><strong>Proof</strong>:</p>
+    <ol>
+        <li>Construct the circle BCD with center A and radius AB (<a href="#postulate-3">postulate 3</a>).</li>
+        <li>Construct the circle ACE with center B and radius BA (<a href="#postulate-3">postulate 3</a>).</li>
+        <li><em>Postulate that circles BCD and ACE meet in a point C. Euclid skipped this step!</em></li>
+        <li>Draw segments CA and CB.</li>
+        <li>Since A is the center of circle CDB and AC and AB are it's radiuses, AC and AB are congruent (definition of <a href="#def-circumference">circumference</a>)</li>
+        <li>Since B is the center of circle ACE and BC and BA are it's radiuses, BC and BA are congruent (definition of <a href="#def-circumference">circumference</a>)</li>
+        <li>We know that AC &cong; AB and BC &cong; BA; but AB &cong; BA (<a href="#comm-4">common notion 4</a>), therefore by <a href="#comm-1">common notion 1</a> we know that all three segments are congruent.</li>
+        <li>Therefore, the triangle ABC is equilateral. QED</li>
+    </ol>
+
 </body>
 </html>
