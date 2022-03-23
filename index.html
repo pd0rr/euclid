@@ -64,7 +64,7 @@
         <li>Given two pairs of congruent things, the sums across the pairs are congruent to each other.</li>
         <li id="comm-3">Given two pairs of congruent things, the differences across pairs are equal to each other.</li>
         <li id="comm-4">Congruence is a reflexive relationship.</li>
-        <li>The whole is greater than the part.</li>
+        <li id="comm-5">The whole is greater than the part.</li>
     </ol>
 
     <h2>Propositions</h2>
@@ -128,17 +128,28 @@
     <li>Use <a href="#prop-3">proposition 3</a> to construct AG on AE, such that AG &cong; AF.</li>
     <li>Draw lines FC and GB (<a href="#post-1">postulate 1</a>).</li>
     <li>Since AF &cong; AG and AB &cong; AC, and the common angle A &cong; A, by <a href="#prop-4">proposition 4</a> we have the triangles AFC &cong; AGB.</li>
-    <li>Since AF &cong; AG and AB &cong; AC, by <a href="comm-3">common notion 3</a> the differences BF &cong; CG.</li>
+    <li>Since AF &cong; AG and AB &cong; AC, by <a href="#comm-3">common notion 3</a> the differences BF &cong; CG.</li>
     <li>Now we know that FC &cong; GB, BF &cong; CG, and the angles BFC &cong; CGB; thus by <a href="#prop-4">proposition 4</a>, the triangles BFC &cong; CGB.</li>
     <li>Thus, the angles FBC &cong; GCB, and BCF &cong; CBG.</li>
-    <li>Since ABG &cong; ACF, within which CBG &cong; BCF, their differences ABC &cong; ACB (<a href="comm-3">common notion 3</a>).</li>
+    <li>Since ABG &cong; ACF, within which CBG &cong; BCF, their differences ABC &cong; ACB (<a href="#comm-3">common notion 3</a>).</li>
     <li>We found FBC &cong; GCB, as well as ABC &cong; ACB. <strong>QED</strong></li>
 </ol>
 
 <div class="proposition">
     <h3>Proposition 6: if a triangle has two angles equal to one another, then the sides subtending the equal angles will also be equal to one another.</h3>
     <p>This is the converse of proposition 5.</p>
-    <p><strong>Hypothesis</strong>: </p>
+    <p><strong>Hypothesis</strong>: let ABC be a triangle with ABC &cong; ACB.</p>
+    <p><strong>Thesis</strong>: the sides AB &cong; AC.</p>
+    <p>Proof:</p>
+    <ol>
+        <li>Suppose that the thesis is false (reductio ad absurdum): if AB and AC are not congruent, then one must be larger than the other (<em>Note: here Euclid is assuming an order relationship between segments that constitutes an implicit axiom</em>)</li>
+        <li>Without loss of generality, assume AB > AC (if this is not the case, the points should be relabeled to make it happen).</li>
+        <li>Construct the point D on AB such that DB &cong; AC (using <a href="#prop-3">proposition 3</a>.</li>
+        <li>Draw the segment DC (<a href="#post-1">postulate 1</a>).</li>
+        <li>DB &cong; AC (by construction), BC &cong; CB (by <a href="#comm-4">common notion 4</a>) and the angles DBC &cong; ACB. Thus by <a href="#prop-4">proposition 4</a>, we have the triangles DBC &cong; ACB.</li>
+        <li>But by <a href="#comm-5">common notion 5</a>, the part cannot be greater than the whole (<em>Euclid is a bit generic here. What does he mean exactly by part?</em>), therefore we have arrived at a contradiction.</li>
+        <li>Thus AB is not unequal to AC; therefore AB &cong; AC. <strong>QED</strong></li>
+    </ol>
 </div>
 </body>
 </html>
