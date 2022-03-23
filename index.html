@@ -165,7 +165,7 @@
 </div>
 
 <div class="proposition">
-    <h3>Proposition 7</h3>
+    <h3 id="prop-7">Proposition 7</h3>
     <p>Given a segment, it's not possible to build two different triangles (on the same side of the initial element) with congruent sides that will converge in a different vertex.</p>
     <p><em>Note: Euclid only examines the non-trivial case where the triangles don't contain each other. When they do, common notion 5 gives an easy contradiction.</em></p>
     <img src="images/prop7.svg" alt="Diagram for proposition 7.">
@@ -184,6 +184,22 @@
     </ol>
 </div>
 
+<div class="proposition">
+    <h3>Proposition 8</h3>
+    <p>If two triangles have all sides equal two by two, then the respective angles are equal two by two.</p>
+    <p><em>This is also called "third triangle congruence criterion".</em></p>
+    <img src="images/prop8.svg" alt="Diagram for proposition 8.">
+    <p><strong>Hypothesis</strong>: let ABC and DEF be two triangles such that AB &cong; DE, AC &cong; DF, BC &cong; EF.</p>
+    <p><strong>Thesis</strong>: angles BAC &cong; EDF. (<em>congruence can be proved for other angle pairs in the same way.</em>)</p>
+    <p><strong>Proof</strong>:</p>
+    <ol>
+        <li>On the segment EF, construct a triangle EFG that is congruent with ABC, such that G is on the same side of EF as D. (<em>one should first prove that building such a triangle is possible.</em>)</li>
+        <li>By <a href="#prop-7">proposition 7</a>, G must be the same point as D.</li>
+        <li>Since G and D are the same point, by <a href="#post-1">postulate 1</a> it must be that DE and GE coincide, as well as DF and GF.</li>
+        <li>Therefore, by the definition of angle, the angles EGF and EDF coincide and are therefore congruent (<a href="#comm-4">common notion 4</a>)</li>
+        <li>But angles BAC &cong; EGF; therefore by <a href="#comm1">common notion 1</a>, we have BAC &cong; EDF. <strong>QED</strong></li>
+    </ol>
+</div>
 
 </body>
 
