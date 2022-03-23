@@ -1,3 +1,7 @@
+body {
+    background-color: #F0F0F0;
+}
+
 /* clearfix */
 .proposition:after {
     content: "";
@@ -5,7 +9,21 @@
     clear: both;
   }
 
+.proposition {
+    margin-bottom: 3rem;
+    background-color: white;
+    box-shadow: #808080 0 0 5px;
+}
+
 .proposition img {
-    float: right;
-    width: 50vw;
+    float: left;
+    width: 30vw;
+    max-height: 65vh;
+    margin-right: 3rem;
+    object-fit: contain;
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
 }
