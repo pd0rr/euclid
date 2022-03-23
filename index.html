@@ -118,7 +118,7 @@
 <p>If two triangles have two sides congruent to two sides and the angle between these congruent, then the third sides and the other angles will also be congruent across the triangles.</p>
 <p><em>Note: Euclid's proof is not considered valid today. This proposition should be an axiom.</em></p>
 
-<h3>Proposition 5: In an isosceles triangle, the angles at the base are congruent to one another.</h3>
+<h3 id="prop-5">Proposition 5: In an isosceles triangle, the angles at the base are congruent to one another.</h3>
 <img src="images/prop5.svg" alt="Diagram for proposition 5.">
 <p><strong>Hypothesis</strong>: let ABC be an isosceles triangle with side AB congruent to AC; let segment BD and CE be the extensions of AB and AC respectively (<a href="#post-2">Postulate 2</a>).</p>
 <p><strong>Thesis</strong>: angles ABC &cong; ACB and CBD &cong; BCE.</p>
@@ -150,6 +150,26 @@
         <li>DB &cong; AC (by construction), BC &cong; CB (by <a href="#comm-4">common notion 4</a>) and the angles DBC &cong; ACB. Thus by <a href="#prop-4">proposition 4</a>, we have the triangles DBC &cong; ACB.</li>
         <li>But by <a href="#comm-5">common notion 5</a>, the part cannot be greater than the whole (<em>Euclid is a bit generic here. What does he mean exactly by part?</em>), therefore we have arrived at a contradiction.</li>
         <li>Thus AB is not unequal to AC; therefore AB &cong; AC. <strong>QED</strong></li>
+    </ol>
+</div>
+
+<div class="proposition">
+    <h3>Proposition 7</h3>
+    <img src="images/prop7.svg" alt="Diagram for proposition 7.">
+    <p>Given a segment, it's not possible to build two different triangles (on the same side of the initial element) with congruent sides that will converge in a different vertex.</p>
+    <p><em>Note: Euclid only examines the non-trivial case where the triangles don't contain each other. When they do, common notion 5 gives an easy contradiction.</em></p>
+    <p><strong>Hypothesis</strong>: let AB be the given segment; let AC &cong; AD and BC &cong; BD.</p>
+    <p><strong>Thesis</strong>: C and D are the same point.</p>
+    <p><strong>Proof</strong>:</p>
+    <ol>
+        <li>Draw segment CD (<a href="#post-1">postulate 1</a>).</li>
+        <li>AC &cong; AD; thus by <a href="prop-5">proposition 5</a>, then angles ACD &cong; ADC.</li>
+        <li>By <a href="comm-5">common notion 5</a>, angles ACD > DCB (<em>if it isn't, exchange the labels</em>).</li>
+        <li>Putting together the previous points, we have ADC > DCB.</li>
+        <li>Similarly, CDB > DCB.</li>
+        <li>By definition, CB &cong; DB; therefore by <a href="prop-5">proposition 5</a>, the angles CDB &cong; DCB.</li>
+        <li>We have proved that CDB > DCB, but also that CDB &cong; DCB. This is a contradiction!</li>
+        <li>Therefore, it cannot be that C and D are different points. Thus, they must be the same point. <strong>QED</strong></li>
     </ol>
 </div>
 </body>
