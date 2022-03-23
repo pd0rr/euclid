@@ -1,0 +1,11 @@
+/* clearfix */
+.proposition:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.proposition img {
+    float: left;
+    width: 40vw;
+}
