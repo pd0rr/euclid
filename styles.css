@@ -50,3 +50,8 @@ body {
 footer {
     text-align: center;
 }
+
+.proposition a {
+    text-decoration: none;
+    font-weight: bold;
+}
