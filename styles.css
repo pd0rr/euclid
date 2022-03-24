@@ -1,13 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F0F0F0;
 }
-
-/* clearfix */
-.proposition:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
 
 .proposition {
     margin-bottom: 3rem;
@@ -18,7 +15,7 @@ body {
 
     display: grid;
     grid-template-rows: auto auto;
-    grid-template-columns: 30vw 1fr;
+    grid-template-columns: 35vw 1fr;
 
     column-gap: 3rem;
     row-gap: 1rem;
@@ -39,18 +36,15 @@ body {
     grid-column: 2;
 }
 
-.proposition h3, .proposition p, .proposition ol {
-    margin-top: 0;
-    margin-bottom: 5px;
+.proposition p, .proposition ol {
+    margin-top: 5px;
 }
 
 .proposition img {
     float: left;
-    max-width: 30vw;
+    max-width: 35vw;
     max-height: 65vh;
-    margin-right: 3rem;
     object-fit: scale-down;
-    padding: 20px;
 }
 
 footer {
