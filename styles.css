@@ -58,6 +58,7 @@ body {
         grid-row: 2;
         justify-self: center;
         max-width: 70vw;
+        max-height: 60wh;
     }
 
     .proposition .proof {
