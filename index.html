@@ -29,7 +29,7 @@
 
     <h2>Definitions</h2>
     <p><strong>Angle</strong>: pair of lines that <em>contain</em> a common point.</p>
-    <p><strong>Right angle</strong>: angle formed by two lines that form equal angles. The lines are called <em>perpendiculars</em>.</p>
+    <p id="def-rightangle"><strong>Right angle</strong>: angle formed by two lines that form equal angles. The lines are called <em>perpendiculars</em>.</p>
     <p><strong>Obtuse angle</strong>: an angle greater than a right angle.</p>
     <p><strong>Acute angle</strong>: an angle smaller than a right angle.</p>
     <p><strong>Circle</strong>: part of the plane contained by a circumference.</p>
@@ -185,7 +185,7 @@
 </div>
 
 <div class="proposition">
-    <h3>Proposition 8</h3>
+    <h3 id="prop-8">Proposition 8</h3>
     <p>If two triangles have all sides equal two by two, then the respective angles are equal two by two.</p>
     <p><em>This is also called "third triangle congruence criterion".</em></p>
     <img src="images/prop8.svg" alt="Diagram for proposition 8.">
@@ -204,6 +204,7 @@
 <div class="proposition">
     <h3 id="prop-9">Proposition 9</h3>
     <p>Bisecting an angle.</p>
+    <p><em>This proof is quite dubious: there's no garantee that AF intersects DE.</em></p>
     <img src="images/prop9.svg" alt="Diagram for proposition 9.">
     <p><strong>Hypothesis</strong>: let BAC be a given angle.</p>
     <p><strong>Thesis</strong>: a segment can be constructed that divides it in two congruent angles.</p>
@@ -212,10 +213,43 @@
         <li>Take any point D on AB.</li>
         <li>Construct AE on AC, such that AE &cong; AD (<a href="#prop-3">proposition 3</a>).</li>
         <li>Draw the segment DE (<a href="#post-1">postulate 1</a>).</li>
-        <li>Construct an equilateral triangle DEF on DE (<a href="prop-1">proposition 1</a>)</li>
+        <li>Construct an equilateral triangle DEF on DE (<a href="#prop-1">proposition 1</a>)</li>
         <li>Draw the segment AF (<a href="#post-1">postulate 1</a>).</li>
-        <li>Since AD &cong; AE (by construction), AF &cong; AF (by <a href="comm-4">common notion 4</a>) and DF &cong; EF (by construction), the angles DAF &cong; EAF (<a href="prop-8">proposition 8</a>).</li>
+        <li>Since AD &cong; AE (by construction), AF &cong; AF (by <a href="#comm-4">common notion 4</a>) and DF &cong; EF (by construction), the angles DAF &cong; EAF (<a href="#prop-8">proposition 8</a>).</li>
         <li>Therefore, the segment AF splits the angle DAE in two congruent parts. <strong>QED</strong></li>
+    </ol>
+</div>
+
+<div class="proposition">
+<h3>Proposition 10</h3>
+<p>Bisecting a segment.</p>
+
+<p><strong>Hypothesis</strong>: let AB be a given segment.</p>
+<p><strong>Thesis</strong>: AB can be divided in half.</p>
+<p><strong>Proof</strong>:</p>
+<ul>
+    <li>Construct an equilateral triangle ABC upon AB (<a href="#prop-1">proposition 1</a>).</li>
+    <li>Bisect the angle ACB by the segment CD (<a href="#prop-9">proposition 9</a>).</li>
+    <li>AC &cong; BC by construction, CD &cong; CD by <a href="#comm-4">common notion 4</a>, angles ACD &cong; BCD; using <a href="#prop-4">proposition 4</a>, we have AD &cong; BD.</li>
+    <li>Thus, D divides AB in two equal parts. <strong>QED</strong></li>
+</ul>
+</div>
+
+<div class="proposition">
+    <h3>Proposition 11</h3>
+    <p>Drawing a segment perpendicular to a given segment from a given point on it.</p>
+
+    <p><strong>Hypothesis</strong>: let AB be the given segment, and C the given point lying on AB.</p>
+    <p><strong>Thesis</strong>: we can draw a segment from C that forms right angles with AB.</p>
+    <p><strong>Proof</strong>:</p>
+    <ol>
+        <li>Draw D as any point on AC.</li>
+        <li>Draw E on CB such that CE &cong; CD (<a href="#prop-3">proposition 3</a>).</li>
+        <li>Construct the equilateral triangle FDE on DE (<a href="#prop-1">proposition 1</a>).</li>
+        <li>Draw the segment FC (<a href="#post-1">postulate 1</a>).</li>
+        <li>Since DC &cong; CE and CF &cong; CF and DF &cong; EF, by <a href="#prop-8">proposition 8</a> we have the angles DCF &cong; ECF.</li>
+        <li>DCF &cong; ECF are formed by the same two lines; thus by the definition of <a href="#def-rightangle">right angles</a>, they are right angles.</li>
+        <li>Segment CF forms right angles with segment AB at point C. <strong>QED</strong></li>
     </ol>
 </div>
 
