@@ -13,6 +13,13 @@ body {
     margin-bottom: 3rem;
     background-color: white;
     box-shadow: #808080 0 0 5px;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.proposition h3, .proposition p, .proposition ol {
+    margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .proposition img {
@@ -20,7 +27,7 @@ body {
     width: 30vw;
     max-height: 65vh;
     margin-right: 3rem;
-    object-fit: contain;
+    object-fit: scale-down;
     padding: 20px;
 }
 
