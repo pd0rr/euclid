@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   width="420.18808"
+   height="453.69058"
+   id="svg61"
+   sodipodi:docname="prop20.svg"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview63"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.258567"
+     inkscape:cx="271.34035"
+     inkscape:cy="209.3651"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g57" />
+  <defs
+     id="defs5">
+    <clipPath
+       id="EbOeqrDLBVSu">
+      <path
+         fill="none"
+         stroke="none"
+         d="M 0,0 H 1148 V 642 H 0 Z"
+         id="path2" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#EbOeqrDLBVSu)"
+     id="g59"
+     transform="translate(-302.72525,-48.467823)">
+    <g
+       id="g57">
+      <rect
+         fill="#ffffff"
+         stroke="none"
+         x="302.72525"
+         y="48.467823"
+         width="420.18808"
+         height="453.69058"
+         fill-opacity="1"
+         id="rect7"
+         style="stroke-width:1" />
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="M 594,96 333.74,467.3"
+         stroke-opacity="0.698039"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="2.5"
+         id="path9" />
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="M 333.74,467.3 687,468"
+         stroke-opacity="0.698039"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="2.5"
+         id="path11" />
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="M 687,468 594,96"
+         stroke-opacity="0.698039"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="2.5"
+         id="path13" />
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="M 687,468 451.61574,299.13254"
+         stroke-opacity="0.698039"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         stroke-width="2.5"
+         id="path15" />
+      <path
+         fill="#4d4dff"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d="m 599,96 c 0,2.761424 -2.23858,5 -5,5 -2.76142,0 -5,-2.238576 -5,-5 0,-2.761424 2.23858,-5 5,-5 2.76142,0 5,2.238576 5,5 z"
+         fill-opacity="1"
+         id="path17" />
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="m 599,96 c 0,2.761424 -2.23858,5 -5,5 -2.76142,0 -5,-2.238576 -5,-5 0,-2.761424 2.23858,-5 5,-5 2.76142,0 5,2.238576 5,5 z"
+         stroke-opacity="1"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         id="path19" />
+      <text
+         fill="#4d4dff"
+         stroke="none"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="598"
+         y="86"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         fill-opacity="1"
+         id="text21">D</text>
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="598"
+         y="86"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         stroke-opacity="1"
+         stroke-linejoin="bevel"
+         stroke-miterlimit="10"
+         stroke-width="3"
+         id="text23">D</text>
+      <text
+         fill="#4d4dff"
+         stroke="none"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="598"
+         y="86"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         fill-opacity="1"
+         id="text25">D</text>
+      <path
+         fill="#4d4dff"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d="m 338.74,467.3 c 0,2.76142 -2.23858,5 -5,5 -2.76142,0 -5,-2.23858 -5,-5 0,-2.76142 2.23858,-5 5,-5 2.76142,0 5,2.23858 5,5 z"
+         fill-opacity="1"
+         id="path27" />
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="m 338.74,467.3 c 0,2.76142 -2.23858,5 -5,5 -2.76142,0 -5,-2.23858 -5,-5 0,-2.76142 2.23858,-5 5,-5 2.76142,0 5,2.23858 5,5 z"
+         stroke-opacity="1"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         id="path29" />
+      <text
+         fill="#4d4dff"
+         stroke="none"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="338"
+         y="457"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         fill-opacity="1"
+         id="text31">B</text>
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="338"
+         y="457"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         stroke-opacity="1"
+         stroke-linejoin="bevel"
+         stroke-miterlimit="10"
+         stroke-width="3"
+         id="text33">B</text>
+      <text
+         fill="#4d4dff"
+         stroke="none"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="338"
+         y="457"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         fill-opacity="1"
+         id="text35">B</text>
+      <path
+         fill="#4d4dff"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d="m 692,468 c 0,2.76142 -2.23858,5 -5,5 -2.76142,0 -5,-2.23858 -5,-5 0,-2.76142 2.23858,-5 5,-5 2.76142,0 5,2.23858 5,5 z"
+         fill-opacity="1"
+         id="path37" />
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="m 692,468 c 0,2.76142 -2.23858,5 -5,5 -2.76142,0 -5,-2.23858 -5,-5 0,-2.76142 2.23858,-5 5,-5 2.76142,0 5,2.23858 5,5 z"
+         stroke-opacity="1"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         id="path39" />
+      <text
+         fill="#4d4dff"
+         stroke="none"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="691"
+         y="458"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         fill-opacity="1"
+         id="text41">C</text>
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="691"
+         y="458"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         stroke-opacity="1"
+         stroke-linejoin="bevel"
+         stroke-miterlimit="10"
+         stroke-width="3"
+         id="text43">C</text>
+      <text
+         fill="#4d4dff"
+         stroke="none"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="691"
+         y="458"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         fill-opacity="1"
+         id="text45">C</text>
+      <path
+         fill="#7d7dff"
+         stroke="none"
+         paint-order="stroke fill markers"
+         d="m 456.61574,299.13254 c 0,2.76143 -2.23858,5 -5,5 -2.76142,0 -5,-2.23857 -5,-5 0,-2.76142 2.23858,-5 5,-5 2.76142,0 5,2.23858 5,5 z"
+         fill-opacity="1"
+         id="path47" />
+      <path
+         fill="none"
+         stroke="#000000"
+         paint-order="fill stroke markers"
+         d="m 456.61574,299.13254 c 0,2.76143 -2.23858,5 -5,5 -2.76142,0 -5,-2.23857 -5,-5 0,-2.76142 2.23858,-5 5,-5 2.76142,0 5,2.23858 5,5 z"
+         stroke-opacity="1"
+         stroke-linecap="round"
+         stroke-linejoin="round"
+         stroke-miterlimit="10"
+         id="path49" />
+      <text
+         fill="#7d7dff"
+         stroke="none"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="429"
+         y="294"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         fill-opacity="1"
+         id="text51">A</text>
+      <text
+         fill="none"
+         stroke="#ffffff"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="429"
+         y="294"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         stroke-opacity="1"
+         stroke-linejoin="bevel"
+         stroke-miterlimit="10"
+         stroke-width="3"
+         id="text53">A</text>
+      <text
+         fill="#7d7dff"
+         stroke="none"
+         font-family="geogebra-sans-serif, sans-serif"
+         font-size="16px"
+         font-style="normal"
+         font-weight="normal"
+         text-decoration="normal"
+         x="429"
+         y="294"
+         text-anchor="start"
+         dominant-baseline="alphabetic"
+         fill-opacity="1"
+         id="text55">A</text>
+    </g>
+  </g>
+</svg>
