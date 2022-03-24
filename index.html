@@ -70,11 +70,14 @@
 
     <h2>Propositions</h2>
 
-<div class="proposition">
-    <h3 id="prop-1">Proposition 1: constructing an equilateral triangle on a given segment.</h3>
+<section class="proposition">
+    <div class="proposition-header">
+        <h3 id="prop-1">Proposition 1: constructing an equilateral triangle on a given segment.</h3>
+    </div>
     <img src="images/prop1.svg" alt="Diagram for proposition 1.">
-    <p><strong>Hypothesis</strong>: a segment AB is given.</p>
-    <p><strong>Thesis</strong>: an equilateral triangle exists that has AB as a side.</p>
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: a segment AB is given.</p>
+        <p><strong>Thesis</strong>: an equilateral triangle exists that has AB as a side.</p>
     <p><strong>Proof</strong>:</p>
     <ol>
         <li>Construct the circle BCD with center A and radius AB (<a href="#post-3">postulate 3</a>).</li>
@@ -87,75 +90,94 @@
         <li>Therefore, the triangle ABC is equilateral. <strong>QED</strong></li>
     </ol>
 </div>
+</section>
     
-<div class="proposition">
-    <h3 id="prop-2">Proposition 2: construct a segment equal to another segment, using a given point as an extreme.</h3>
+<section class="proposition">
+    <div class="proposition-header">
+        <h3 id="prop-2">Proposition 2: construct a segment equal to another segment, using a given point as an extreme.</h3>
+    </div>
     <img src="images/prop2.svg" alt="Diagram for proposition 2.">
-    <p><strong>Hypothesis</strong>: let A be a given point, and BC a given segment.</p>
-    <p><strong>Thesis</strong>: there exists a straight line AD congruent to BC.</p>
-    <p><strong>Proof</strong>:</p>
-    <ol>
-        <li>Construct an equilateral triangle ABC on segment AB (<a href="#prop-1">proposition 1</a>).</li>
-        <li>Extend AE and BF from segments DA and DB (<a href="#post-2">postulate 2</a>).</li>
-        <li>Draw the circle CGH with center B and radius BC (<a href="#post-3">postulate 3</a>).</li>
-        <li>Draw the circle GKL with center D and radius DG (<a href="#post-3">postulate 3</a>).</li>
-        <li>As D is the center of GKL, DL is congruent to DG (definition of <a href="#def-circumference">circumference</a>).</li>
-        <li>given AD &cong; BD and DL &cong; DG, we have the differences AL &cong; BG (<a href="#comm-3">common notion 3</a>).</li>
-        <li>BC and BG are radiuses of CGH; therefore they are congruent (definition of <a href="#def-circumference">circumference</a>)</li>
-        <li>As AL &cong; BG and BC &cong; BG, by <a href="#comm-1">common notion 1</a> we have AL &cong; BC. <strong>QED</strong></li>
-    </ol>
-</div>
 
-<div class="proposition">
-    <h3 id="prop-3">Proposition 3: given two unequal segments, subtract the smaller from the larger.</h3>
-    <img src="images/prop3.svg" alt="Diagram for proposition 3.">
-    <p><strong>Hypothesis</strong>: let AB and C be two given non-congruent segments, with AB longer than C.</p>
-    <p><strong>Thesis</strong>: it's possible to subtract a segment congruent to C from AB.</p>
-    <p><strong>Proof</strong>:</p>
-    <ol>
-        <li>Using <a href="#prop-2">proposition 2</a>, construct a segment AD congruent to C.</li>
-        <li>Build the circle DEF with center A and radius AD (<a href="#post-3">postulate 3</a>).</li>
-        <li><em>Postulate that AB meets the circle in a point E</em></li>
-        <li>By the definition of <a href="#def-circumference">circumference</a>, AD &cong; AE.</li>
-        <li>From AD &cong; AE and C &cong; AD, we conclude that AE &cong; C (<a href="#comm-1">common notion 1</a>). <strong>QED</strong></li>
-    </ol>
-</div>
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let A be a given point, and BC a given segment.</p>
+        <p><strong>Thesis</strong>: there exists a straight line AD congruent to BC.</p>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>Construct an equilateral triangle ABC on segment AB (<a href="#prop-1">proposition 1</a>).</li>
+            <li>Extend AE and BF from segments DA and DB (<a href="#post-2">postulate 2</a>).</li>
+            <li>Draw the circle CGH with center B and radius BC (<a href="#post-3">postulate 3</a>).</li>
+            <li>Draw the circle GKL with center D and radius DG (<a href="#post-3">postulate 3</a>).</li>
+            <li>As D is the center of GKL, DL is congruent to DG (definition of <a href="#def-circumference">circumference</a>).</li>
+            <li>given AD &cong; BD and DL &cong; DG, we have the differences AL &cong; BG (<a href="#comm-3">common notion 3</a>).</li>
+            <li>BC and BG are radiuses of CGH; therefore they are congruent (definition of <a href="#def-circumference">circumference</a>)</li>
+            <li>As AL &cong; BG and BC &cong; BG, by <a href="#comm-1">common notion 1</a> we have AL &cong; BC. <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
+
+<section class="proposition">
+    <div class="proposition-header">
+        <h3 id="prop-3">Proposition 3: given two unequal segments, subtract the smaller from the larger.</h3>
+    </div>
+        <img src="images/prop3.svg" alt="Diagram for proposition 3.">
+        <div class="proof">
+            <p><strong>Hypothesis</strong>: let AB and C be two given non-congruent segments, with AB longer than C.</p>
+            <p><strong>Thesis</strong>: it's possible to subtract a segment congruent to C from AB.</p>
+            <p><strong>Proof</strong>:</p>
+            <ol>
+                <li>Using <a href="#prop-2">proposition 2</a>, construct a segment AD congruent to C.</li>
+                <li>Build the circle DEF with center A and radius AD (<a href="#post-3">postulate 3</a>).</li>
+                <li><em>Postulate that AB meets the circle in a point E</em></li>
+                <li>By the definition of <a href="#def-circumference">circumference</a>, AD &cong; AE.</li>
+                <li>From AD &cong; AE and C &cong; AD, we conclude that AE &cong; C (<a href="#comm-1">common notion 1</a>). <strong>QED</strong></li>
+            </ol>
+        </div>
+</section>
     
-<div class="proposition">
-    <h3 id="prop-4">Proposition 4</h3>
-    <p>If two triangles have two sides congruent to two sides and the angle between these congruent, then the third sides and the other angles will also be congruent across the triangles.</p>
-    <p><em>Note: Euclid's proof is not considered valid today. This proposition should be an axiom.</em></p>
-</div>
+<section class="proposition">
+    <div class="proposition-header">
+        <h3 id="prop-4">Proposition 4</h3>
+        <p>If two triangles have two sides congruent to two sides and the angle between these congruent, then the third sides and the other angles will also be congruent across the triangles.</p>
+        <p><em>Note: Euclid's proof is not considered valid today. This proposition should be an axiom.</em></p>
+    </div>
+</section>
     
-<div class="proposition">
-    <h3 id="prop-5">Proposition 5: In an isosceles triangle, the angles at the base are congruent to one another.</h3>
+<section class="proposition">
+    <div class="proposition-header">
+        <h3 id="prop-5">Proposition 5: In an isosceles triangle, the angles at the base are congruent to one another.</h3>
+    </div>
     <img src="images/prop5.svg" alt="Diagram for proposition 5.">
-    <p><strong>Hypothesis</strong>: let ABC be an isosceles triangle with side AB congruent to AC; let segment BD and CE be the extensions of AB and AC respectively (<a href="#post-2">Postulate 2</a>).</p>
-    <p><strong>Thesis</strong>: angles ABC &cong; ACB and CBD &cong; BCE.</p>
-    <p><strong>Proof</strong>:</p>
-    <ol>
-        <li>Let F be any point on BD.</li>
-        <li>Use <a href="#prop-3">proposition 3</a> to construct AG on AE, such that AG &cong; AF.</li>
-        <li>Draw lines FC and GB (<a href="#post-1">postulate 1</a>).</li>
-        <li>Since AF &cong; AG and AB &cong; AC, and the common angle A &cong; A, by <a href="#prop-4">proposition 4</a> we have the triangles AFC &cong; AGB.</li>
-        <li>Since AF &cong; AG and AB &cong; AC, by <a href="#comm-3">common notion 3</a> the differences BF &cong; CG.</li>
-        <li>Now we know that FC &cong; GB, BF &cong; CG, and the angles BFC &cong; CGB; thus by <a href="#prop-4">proposition 4</a>, the triangles BFC &cong; CGB.</li>
-        <li>Thus, the angles FBC &cong; GCB, and BCF &cong; CBG.</li>
-        <li>Since ABG &cong; ACF, within which CBG &cong; BCF, their differences ABC &cong; ACB (<a href="#comm-3">common notion 3</a>).</li>
-        <li>We found FBC &cong; GCB, as well as ABC &cong; ACB. <strong>QED</strong></li>
-    </ol>
-</div>
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let ABC be an isosceles triangle with side AB congruent to AC; let segment BD and CE be the extensions of AB and AC respectively (<a href="#post-2">Postulate 2</a>).</p>
+        <p><strong>Thesis</strong>: angles ABC &cong; ACB and CBD &cong; BCE.</p>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>Let F be any point on BD.</li>
+            <li>Use <a href="#prop-3">proposition 3</a> to construct AG on AE, such that AG &cong; AF.</li>
+            <li>Draw lines FC and GB (<a href="#post-1">postulate 1</a>).</li>
+            <li>Since AF &cong; AG and AB &cong; AC, and the common angle A &cong; A, by <a href="#prop-4">proposition 4</a> we have the triangles AFC &cong; AGB.</li>
+            <li>Since AF &cong; AG and AB &cong; AC, by <a href="#comm-3">common notion 3</a> the differences BF &cong; CG.</li>
+            <li>Now we know that FC &cong; GB, BF &cong; CG, and the angles BFC &cong; CGB; thus by <a href="#prop-4">proposition 4</a>, the triangles BFC &cong; CGB.</li>
+            <li>Thus, the angles FBC &cong; GCB, and BCF &cong; CBG.</li>
+            <li>Since ABG &cong; ACF, within which CBG &cong; BCF, their differences ABC &cong; ACB (<a href="#comm-3">common notion 3</a>).</li>
+            <li>We found FBC &cong; GCB, as well as ABC &cong; ACB. <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
     
-<div class="proposition">
-    <h3>Proposition 6: if a triangle has two angles equal to one another, then the sides subtending the equal angles will also be equal to one another.</h3>
-    <p>This is the converse of proposition 5.</p>
+<section class="proposition">
+    <div class="proposition-header">
+        <h3>Proposition 6: if a triangle has two angles equal to one another, then the sides subtending the equal angles will also be equal to one another.</h3>
+        <p>This is the converse of proposition 5.</p>
+    </div>
     <img src="images/prop6.svg" alt="Diagram for proposition 6.">
-    <p><strong>Hypothesis</strong>: let ABC be a triangle with ABC &cong; ACB.</p>
-    <p><strong>Thesis</strong>: the sides AB &cong; AC.</p>
-    <p><strong>Proof:</strong></p>
-    <ol>
-        <li>Suppose that the thesis is false (reductio ad absurdum): if AB and AC are not congruent, then one must be larger than the other (<em>Note: here Euclid is assuming an order relationship between segments that constitutes an implicit axiom</em>)</li>
-        <li>Without loss of generality, assume AB > AC (if this is not the case, the points should be relabeled to make it happen).</li>
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let ABC be a triangle with ABC &cong; ACB.</p>
+        <p><strong>Thesis</strong>: the sides AB &cong; AC.</p>
+        <p><strong>Proof:</strong></p>
+        <ol>
+            <li>Suppose that the thesis is false (reductio ad absurdum): if AB and AC are not congruent, then one must be larger than the other (<em>Note: here Euclid is assuming an order relationship between segments that constitutes an implicit axiom</em>)</li>
+            <li>Without loss of generality, assume AB > AC (if this is not the case, the points should be relabeled to make it happen).</li>
         <li>Construct the point D on AB such that DB &cong; AC (using <a href="#prop-3">proposition 3</a>.</li>
         <li>Draw the segment DC (<a href="#post-1">postulate 1</a>).</li>
         <li>DB &cong; AC (by construction), BC &cong; CB (by <a href="#comm-4">common notion 4</a>) and the angles DBC &cong; ACB. Thus by <a href="#prop-4">proposition 4</a>, we have the triangles DBC &cong; ACB.</li>
@@ -163,48 +185,60 @@
         <li>Thus AB is not unequal to AC; therefore AB &cong; AC. <strong>QED</strong></li>
     </ol>
 </div>
+</section>
 
-<div class="proposition">
-    <h3 id="#prop-7">Proposition 7</h3>
-    <p>Given a segment, it's not possible to build two different triangles (on the same side of the initial element) with congruent sides that will converge in a different vertex.</p>
-    <p><em>Note: Euclid only examines the non-trivial case where the triangles don't contain each other. When they do, common notion 5 gives an easy contradiction.</em></p>
+<section class="proposition">
+    <div class="proposition-header">
+        <h3 id="#prop-7">Proposition 7</h3>
+        <p>Given a segment, it's not possible to build two different triangles (on the same side of the initial element) with congruent sides that will converge in a different vertex.</p>
+        <p><em>Note: Euclid only examines the non-trivial case where the triangles don't contain each other. When they do, common notion 5 gives an easy contradiction.</em></p>
+    </div>
     <img src="images/prop7.svg" alt="Diagram for proposition 7.">
-    <p><strong>Hypothesis</strong>: let AB be the given segment; let AC &cong; AD and BC &cong; BD.</p>
-    <p><strong>Thesis</strong>: C and D are the same point.</p>
-    <p><strong>Proof</strong>:</p>
-    <ol>
-        <li>Draw segment CD (<a href="#post-1">postulate 1</a>).</li>
-        <li>AC &cong; AD; thus by <a href="#prop-5">proposition 5</a>, then angles ACD &cong; ADC.</li>
-        <li>By <a href="#comm-5">common notion 5</a>, angles ACD > DCB (<em>if it isn't, exchange the labels</em>).</li>
-        <li>Putting together the previous points, we have ADC > DCB.</li>
-        <li>Similarly, CDB > DCB.</li>
-        <li>By definition, CB &cong; DB; therefore by <a href="#prop-5">proposition 5</a>, the angles CDB &cong; DCB.</li>
-        <li>We have proved that CDB > DCB, but also that CDB &cong; DCB. This is a contradiction!</li>
-        <li>Therefore, it cannot be that C and D are different points. Thus, they must be the same point. <strong>QED</strong></li>
-    </ol>
-</div>
 
-<div class="proposition">
-    <h3 id="prop-8">Proposition 8</h3>
-    <p>If two triangles have all sides equal two by two, then the respective angles are equal two by two.</p>
-    <p><em>This is also called "third triangle congruence criterion".</em></p>
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let AB be the given segment; let AC &cong; AD and BC &cong; BD.</p>
+        <p><strong>Thesis</strong>: C and D are the same point.</p>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>Draw segment CD (<a href="#post-1">postulate 1</a>).</li>
+            <li>AC &cong; AD; thus by <a href="#prop-5">proposition 5</a>, then angles ACD &cong; ADC.</li>
+            <li>By <a href="#comm-5">common notion 5</a>, angles ACD > DCB (<em>if it isn't, exchange the labels</em>).</li>
+            <li>Putting together the previous points, we have ADC > DCB.</li>
+            <li>Similarly, CDB > DCB.</li>
+            <li>By definition, CB &cong; DB; therefore by <a href="#prop-5">proposition 5</a>, the angles CDB &cong; DCB.</li>
+            <li>We have proved that CDB > DCB, but also that CDB &cong; DCB. This is a contradiction!</li>
+            <li>Therefore, it cannot be that C and D are different points. Thus, they must be the same point. <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
+
+<section class="proposition">
+    <div class="proposition-header">
+        <h3 id="prop-8">Proposition 8</h3>
+        <p>If two triangles have all sides equal two by two, then the respective angles are equal two by two.</p>
+        <p><em>This is also called "third triangle congruence criterion".</em></p>
+    </div>
     <img src="images/prop8.svg" alt="Diagram for proposition 8.">
-    <p><strong>Hypothesis</strong>: let ABC and DEF be two triangles such that AB &cong; DE, AC &cong; DF, BC &cong; EF.</p>
-    <p><strong>Thesis</strong>: angles BAC &cong; EDF. (<em>congruence can be proved for other angle pairs in the same way.</em>)</p>
-    <p><strong>Proof</strong>:</p>
-    <ol>
-        <li>On the segment EF, construct a triangle EFG that is congruent with ABC, such that G is on the same side of EF as D. (<em>one should first prove that building such a triangle is possible.</em>)</li>
-        <li>By <a href="#prop-7">proposition 7</a>, G must be the same point as D.</li>
-        <li>Since G and D are the same point, by <a href="#post-1">postulate 1</a> it must be that DE and GE coincide, as well as DF and GF.</li>
-        <li>Therefore, by the definition of angle, the angles EGF and EDF coincide and are therefore congruent (<a href="#comm-4">common notion 4</a>)</li>
-        <li>But angles BAC &cong; EGF; therefore by <a href="#comm1">common notion 1</a>, we have BAC &cong; EDF. <strong>QED</strong></li>
-    </ol>
-</div>
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let ABC and DEF be two triangles such that AB &cong; DE, AC &cong; DF, BC &cong; EF.</p>
+        <p><strong>Thesis</strong>: angles BAC &cong; EDF. (<em>congruence can be proved for other angle pairs in the same way.</em>)</p>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>On the segment EF, construct a triangle EFG that is congruent with ABC, such that G is on the same side of EF as D. (<em>one should first prove that building such a triangle is possible.</em>)</li>
+            <li>By <a href="#prop-7">proposition 7</a>, G must be the same point as D.</li>
+            <li>Since G and D are the same point, by <a href="#post-1">postulate 1</a> it must be that DE and GE coincide, as well as DF and GF.</li>
+            <li>Therefore, by the definition of angle, the angles EGF and EDF coincide and are therefore congruent (<a href="#comm-4">common notion 4</a>)</li>
+            <li>But angles BAC &cong; EGF; therefore by <a href="#comm1">common notion 1</a>, we have BAC &cong; EDF. <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
 
-<div class="proposition">
-    <h3 id="#prop-9">Proposition 9</h3>
-    <p>Bisecting an angle.</p>
-    <p><em>This proof is quite dubious: there's no garantee that AF intersects DE.</em></p>
+<section class="proposition">
+    <div class="proposition-header">
+        <h3 id="prop-9">Proposition 9</h3>
+        <p>Bisecting an angle.</p>
+        <p><em>This proof is quite dubious: there's no garantee that AF intersects DE.</em></p>
+    </div>
     <img src="images/prop9.svg" alt="Diagram for proposition 9.">
     <p><strong>Hypothesis</strong>: let BAC be a given angle.</p>
     <p><strong>Thesis</strong>: a segment can be constructed that divides it in two congruent angles.</p>
@@ -218,22 +252,26 @@
         <li>Since AD &cong; AE (by construction), AF &cong; AF (by <a href="#comm-4">common notion 4</a>) and DF &cong; EF (by construction), the angles DAF &cong; EAF (<a href="#prop-8">proposition 8</a>).</li>
         <li>Therefore, the segment AF splits the angle DAE in two congruent parts. <strong>QED</strong></li>
     </ol>
-</div>
+</section>
 
-<div class="proposition">
-<h3>Proposition 10</h3>
-<p>Bisecting a segment.</p>
+<section class="proposition" id="prop-10">
+    <div class="proposition-header">
+        <h3>Proposition 10</h3>
+        <p>Bisecting a segment.</p>
+    </div>
 
-<p><strong>Hypothesis</strong>: let AB be a given segment.</p>
-<p><strong>Thesis</strong>: AB can be divided in half.</p>
-<p><strong>Proof</strong>:</p>
-<ul>
-    <li>Construct an equilateral triangle ABC upon AB (<a href="#prop-1">proposition 1</a>).</li>
-    <li>Bisect the angle ACB by the segment CD (<a href="#prop-9">proposition 9</a>).</li>
-    <li>AC &cong; BC by construction, CD &cong; CD by <a href="#comm-4">common notion 4</a>, angles ACD &cong; BCD; using <a href="#prop-4">proposition 4</a>, we have AD &cong; BD.</li>
-    <li>Thus, D divides AB in two equal parts. <strong>QED</strong></li>
-</ul>
-</div>
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let AB be a given segment.</p>
+        <p><strong>Thesis</strong>: AB can be divided in half.</p>
+        <p><strong>Proof</strong>:</p>
+        <ul>
+            <li>Construct an equilateral triangle ABC upon AB (<a href="#prop-1">proposition 1</a>).</li>
+            <li>Bisect the angle ACB by the segment CD (<a href="#prop-9">proposition 9</a>).</li>
+            <li>AC &cong; BC by construction, CD &cong; CD by <a href="#comm-4">common notion 4</a>, angles ACD &cong; BCD; using <a href="#prop-4">proposition 4</a>, we have AD &cong; BD.</li>
+            <li>Thus, D divides AB in two equal parts. <strong>QED</strong></li>
+        </ul>
+    </div>
+</section>
 
 <div class="proposition" id="prop-11">
     <h3>Proposition 11</h3>
