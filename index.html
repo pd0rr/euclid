@@ -235,7 +235,7 @@
 </ul>
 </div>
 
-<div class="proposition">
+<div class="proposition" id="prop-11">
     <h3>Proposition 11</h3>
     <p>Drawing a segment perpendicular to a given segment from a given point on it.</p>
 
@@ -252,6 +252,58 @@
         <li>Segment CF forms right angles with segment AB at point C. <strong>QED</strong></li>
     </ol>
 </div>
+
+<section class="proposition" id="prop-12">
+    <div class="proposition-header">
+        <h3>Proposition 12</h3>
+        <p>Drawing a segment perpendicular to an infinite straight line from a point that doesn't lie on it.</p>
+        <p><em>But what exactly is a straight line? It could be defined as a set of points which contain all the extensions of a given segments; but then we'd have to postulate that all figures are sets of points, which is not explicit in Euclid.</em></p>
+    </div>
+
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let AB be the given infinite straight line, and C the given point, lying outside of AB.</p>
+        <p><strong>Thesis</strong>: we can draw a segment perpendicular to AB with an extreme in C.</p>
+        <p><strong>Construction</strong>:</p>
+        <ol>
+            <li>Let D be any point of the plane, lying on the opposite side of AB as C (<em>how do we know that an infinite line divides the plane in sides?</em>).</li>
+            <li>Draw the circle EFG with center C and radius CD (<a href="#post-3">postulate 3</a>).</li>
+            <li><em>The circle intersects AB in two points E and G, but this does not seem to follow from Euclid's axioms.</em></li>
+            <li>Bisect EG by point H (<a href="#prop-10">proposition 10</a>).</li>
+            <li>Draw lines CG, CH and CE (<a href="#post-1">postulate 1</a>).</li>
+            <li>We will prove that CH is perpendicular to AB.</li>
+        </ol>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>GH &cong; HE (by construction), HC &cong; HC (<a href="#comm-4">C.M. 4</a>) and CG &cong; CE (by the definition of <a href="#def-circumference">circumference</a>); thus using <a href="#prop-8">proposition 8</a>, we have the angles CHG &cong; CHE.</li>
+            <li>Angles CHG and CHE are congruent and formed by the same segments; thus by <a href="def-rightangle">definition</a>, they are right angles; further, the line CH is perpendicular to GE</li>
+            <li>We found CH &perp; AB, with an extreme in C. <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
+
+<section class="proposition" id="prop-13">
+    <div class="proposition-header">
+        <h3>Proposition 13</h3>
+        <p>A segment inciding upon another will either form two right angles or two angles whose sum equals two right angles.</p>
+    </div>
+
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let segment AB have the extreme B on segment CD, forming angles CBA and ABD.</p>
+        <p><strong>Thesis</strong>: CBA and ABD are either right angles, or have a sum equal to two right angles.</p>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>If CBA &cong; ABD, then they are right angles by <a href="#def-rightangle">definition</a>.</li>
+            <li>If they aren't congruent, then construct the segment BE perpendicular to CD from point B (<a href="#prop-11"></a>)</li>
+            <li>By construction, CBE and EBD are right angles.</li>
+            <li>Re-label the points such that angle CBE is the sum of CBA and ABE.</li>
+            <li>By <a href="comm-2">C. N. 2</a>, the sum of CBE and EBD is equal to the sum of CBA, ABE and EBD.</li>
+            <li>DBA is the sum of DBE and EBA (<em>Why?</em>).</li>
+            <li>By <a href="comm-2">C. N. 2</a>, the sum of DBA and ABC equals the sum of DBE, EBA and ABC.</li>
+            <li>We have proved that DBE + EBC and DBA + ABC are equal to the same thing; thus by <a href="comm-1">C. N. 1</a>, they are equal to each other.</li>
+            <li>We have proved that the sum of CBA and ABD is equal to two right angles. <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
 
 </body>
 
