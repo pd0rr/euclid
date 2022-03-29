@@ -62,7 +62,7 @@
     <h2>Common notions</h2>
     <ol>
         <li id="comm-1">Congruence is a transitive relationship.</li>
-        <li>Given two pairs of congruent things, the sums across the pairs are congruent to each other.</li>
+        <li id="comm-2">Given two pairs of congruent things, the sums across the pairs are congruent to each other.</li>
         <li id="comm-3">Given two pairs of congruent things, the differences across pairs are equal to each other.</li>
         <li id="comm-4">Congruence is a reflexive relationship.</li>
         <li id="comm-5">The whole is greater than the part.</li>
@@ -426,6 +426,30 @@
         </ol>
     </div>
 </section>
+
+<section class="proposition" id="prop-17">
+    <div class="proposition-header">
+        <h3>Proposition 17</h3>
+        <p>In a triangle, the sum of any two inner angles is less than two right angles.</p>
+    </div>
+    <img src="images/prop17.svg" alt="Diagram for proposition 17.">
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let ABC be a triangle.</p>
+        <p><strong>Thesis</strong>: any two angles of ABC summed together are less than two right angles.</p>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>Extend BC up to D (<a href="#post-2">postulate 2</a>).</li>
+            <li>From <a href="#prop-16">proposition 16</a>, the external angle ACD is larger than the opposite internal angle ABC.</li>
+            <li>Adding ACB to both sides (<a href="#comm-2">C. N. 2</a>), we obtain ACD + ACB > ABC + BCA.</li>
+            <li>By <a href="#prop-13">proposition 13</a>, ACD + ACB is congruent to two right angles.</li>
+            <li>Thus, ABC + BCA is less than two right angles.</li>
+            <li>In the same manner, it can be proved that BAC + ACB is also less than two right angles, and the same for CAB + ABC.</li>
+            <li>Thus, the thesis was proved. <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
+
+
 
 </body>
 
