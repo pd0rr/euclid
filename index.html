@@ -449,7 +449,45 @@
     </div>
 </section>
 
+<section class="proposition" id="prop-18">
+    <div class="proposition-header">
+        <h3>Proposition 18</h3>
+        <p>In any triangle, the greater side subtends the greater angle.</p>
+    </div>
+    <img src="images/prop18.svg" alt="Diagram for proposition 18.">
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let ABC be a triangle having sides AC > AB.</p>
+        <p><strong>Thesis</strong>: angles ABC > BCA.</p>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>Construct AD on AC such that AC &cong; AB (<a href="#prop-3">proposition 3</a>).</li>
+            <li>Draw BD (<a href="#post-1">postulate 1</a>).</li>
+            <li>Angle ADB is external to triangle BCD; thus by <a href="#prop-16">proposition 16</a>, it is larger than equal and opposite inner angle DCB.</li>
+            <li>but ABD is an isosceles triangle, thus by <a href="#prop-5">proposition 5</a>, it must be ADB &cong; ABD.</li>
+            <li>Thus, ABD > ACB (<em>from which postulate?</em>).</li>
+            <li>By <a href="#comm-5">C. N. 5</a>, we have ABD > ABC; thus ABD > ABC (<em>once again, who says that > is transitive?</em>). <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
 
+<section class="proposition" id="prop-19">
+    <div class="proposition-header">
+        <h3>Proposition 19</h3>
+        <p>In any triangle, the greater angle is subtended by the greater side.</p>
+    </div>
+    <img src="images/prop19.svg" alt="Diagram for proposition 19.">
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let ABC be a triangle having angles ABC > BCA.</p>
+        <p><strong>Thesis</strong>: AC > AB.</p>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>If the thesis is false (<em>reduction ad absurdum</em>), then AC &leq; AB.</li>
+            <li>If AC &cong; AB, then by <a href="#prop-5">proposition 5</a> it must be that angles ABC &cong; ACB, but this contradicts the hypothesis!</li>
+            <li>If AC &lt; AB, then by <a href="#prop-18">proposition 18</a> it must be ABC &lt; ACB, which contradicts the hypothesis.</li>
+            <li>Thus, it cannot be AC &leq; AB, which means that AC &gt; AB. <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
 
 </body>
 
