@@ -178,7 +178,7 @@
         <ol>
             <li>Suppose that the thesis is false (reductio ad absurdum): if AB and AC are not congruent, then one must be larger than the other (<em>Note: here Euclid is assuming an order relationship between segments that constitutes an implicit axiom</em>)</li>
             <li>Without loss of generality, assume AB > AC (if this is not the case, the points should be relabeled to make it happen).</li>
-        <li>Construct the point D on AB such that DB &cong; AC (using <a href="#prop-3">proposition 3</a>.</li>
+        <li>Construct the point D on AB such that DB &cong; AC (using <a href="#prop-3">proposition 3</a>).</li>
         <li>Draw the segment DC (<a href="#post-1">postulate 1</a>).</li>
         <li>DB &cong; AC (by construction), BC &cong; CB (by <a href="#comm-4">common notion 4</a>) and the angles DBC &cong; ACB. Thus by <a href="#prop-4">proposition 4</a>, we have the triangles DBC &cong; ACB.</li>
         <li>But by <a href="#comm-5">common notion 5</a>, the part cannot be greater than the whole (<em>Euclid is a bit generic here. What does he mean exactly by part?</em>), therefore we have arrived at a contradiction.</li>
@@ -509,6 +509,31 @@
             <li>by <a href="#prop-19">proposition 19</a>, DB &gt; BC.</li>
             <li>From DA &cong; AC and DB &gt; BC, we can say BA + AC &gt; BC.</li>
             <li>Corresponding statements can be proved for the other two sides. <strong>QED</strong></li>
+        </ol>
+    </div>
+</section>
+
+<section class="proposition" id="#prop-21">
+    <div class="proposition-header">
+        <h3>Proposition 21</h3>
+        <p>If two internal segments are constructed on one side of a triangle, from its ends, the constructed segments are shorter than the two other sides of the triangle, but will form a larger angle.</p>
+    </div>
+    <img src="images/prop21.svg" alt="Diagram for proposition 21.">
+    <div class="proof">
+        <p><strong>Hypothesis</strong>: let ABC be a given triangle. Let the two internal segments BD and DC have been constructed on side BC, from B and C.</p>
+        <p><strong>Thesis</strong>: segments BD + DC &lt; BA + AC, but angles BDC > BAC.</p>
+        <p><strong>Proof</strong>:</p>
+        <ol>
+            <li>Extend segment BD into E (<a href="#post-2">postulate 2</a>).</li>
+            <li>Considering triangle ABE, from <a href="#prop-20">proposition 20</a> we know that AB + AE &gt; BE.</li>
+            <li>Add EC to both sides (<a href="#comm-2">C. N. 2</a>): AB + AC > BE + EC.</li>
+            <li>Considering triangle CED, from <a href="#prop-20">proposition 20</a> we know CE + ED &gt; CD.</li>
+            <li>Add DB to both sides (<a href="#comm-2">C. N. 2</a>): CE + EB &gt; CD + DB.</li>
+            <li>From BA + AC > BE + EC and BE + EC > CD + DB, we conclude that BA + AC > CD + DB.</li>
+            <li>Using <a href="#prop-16">proposition 16</a> on triangle CDE, the external angle BDC is larger than CED &cong; CEB.</li>
+            <li>For the same reason, external angle CEB of triangle ABE is larger than angle BAC.</li>
+            <li>Thus, from BDC > CEB and CEB > BAC, we conclude that BCD > BAC.</li>
+            <li>We proved that BA + AC > CD + DB, while angles BCD > BAC. <strong>QED</strong></li>
         </ol>
     </div>
 </section>
